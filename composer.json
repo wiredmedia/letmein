@@ -1,0 +1,30 @@
+{
+    "name": "wiredmedia/letmein",
+    "description": "An auth plugin for wordpress.",
+    "keywords": ["auth"],
+    "homepage": "https://github.com/wiredmedia/letmein",
+    "license": "GPL-2.0+",
+    "authors": [
+        {
+            "name": "Carl Hughes",
+            "email": "developers@wiredmedia.co.uk",
+            "homepage": "http://wiredmedia.co.uk"
+        }
+    ],
+    "type": "wordpress-plugin",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/opauth/opauth.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/opauth/facebook.git"
+        }
+    ],
+    "require": {
+        "composer/installers": "~1.0",
+        "opauth/opauth": ">=0.2.0",
+        "opauth/facebook": ">=0.2.0"
+    }
+}
