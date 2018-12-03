@@ -3,5 +3,5 @@ letmein
 
 An auth login plugin for WordPress
 
-# Authors
+### Authors
 Wired Media - https://www.wiredmedia.co.uk
